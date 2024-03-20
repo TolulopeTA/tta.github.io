@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Form Sheet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>HTML: Forms </h1>
+<!--First table -->
+<h2>Tags</h2>
+  <table>
+    <thead>
+      <tr>
+        <td >S/N</td>
+        <td >Tag(s) used</td>
+        <td >Name</td>
+        <td >Description</td>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="sn">1</td>
+        <td class="tag">&lt;form&gt;</td>
+        <td class="nameel">form</td>
+        <td class="description">allow users to input information and send it</td>      
+      </tr>
+
+      <tr>
+        <td class="sn">2</td>
+        <td class="tag">&lt;input&gt;</td>
+        <td class="nameel">input</td>
+        <td class="description">To add fields for users to input information we use the <span class="tag">&lt;input&gt;</span> element and set the <span class="attr">type</span> attribute to a field </td>      
+      </tr>
+
+      <tr>
+        <td class="sn">3</td>
+        <td class="tag">&lt;label&gt;</td>
+        <td class="nameel">label</td>
+        <td class="description">For a user to properly identify an <span class="tag">&lt;input&gt;</span> we use the appropriately named <span class="tag">&lt;label&gt;</span> element.<br>The <span class="tag">&lt;label&gt;</span> element has an opening and closing tag and displays text that is written between the opening and closing tags.</td>      
+      </tr>
+
+      <tr>
+        <td class="sn">4</td>
+        <td class="tag">&lt;select&gt;, &lt;option&gt;</td>
+        <td class="nameel">select</td>
+        <td class="description">A <span class="tag">&lt;select&gt;</span> element is populated with <span class="tag">&lt;option&gt;</span> elements and renders a dropdown list selection.</td>      
+      </tr>
+
+      <tr>
+        <td class="sn">5</td>
+        <td class="tag">&lt;datalist&gt;, &lt;option&gt;</td>
+        <td class="nameel">datalist</td>
+        <td class="description">A <span class="tag">&lt;datalist&gt;</span> element is populated with <span class="tag">&lt;option&gt;</span> elements and works with an <span class="tag">&lt;input&gt;</span> to search through choices.</td>      
+      </tr>
+  
+        <tr>
+        <td class="sn">6</td>
+        <td class="tag">&lt;textarea&gt;</td>
+        <td class="nameel">textarea</td>
+        <td class="description">A <span class="tag">&lt;textarea&gt;</span> element is a text input field that has a customizable area.</td>      
+      </tr>
+
+    </tbody>
+  </table>
+  <br><br>
+
+<!--Second table -->
+<h2>Type Values</h2>
+  <table>
+    <thead>
+      <tr>
+        <td >S/N</td>
+        <td >Fields</td>
+        <td >Description</td>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="sn">1</td>
+        <td class="typevalues">"text"</td>
+        <td class="description">creates a single row field for text input<br><br>Setting <span class="attr">type</span> to <span class="typevalues">"text"</span>  and adding the <span class="attr">list</span> attribute will pair the <span class="tag">&lt;input&gt;</span> with a <span class="tag">&lt;datalist&gt;</span> element if the <span class="attr">list</span> of <span class="tag">&lt;input&gt;</span> and the <span class="attr">id</span> of <span class="tag">&lt;datalist&gt;</span> are the same.</td>
+      </tr>  
+
+      <tr>
+        <td class="sn">2</td>
+        <td class="typevalues">"password"</td>
+        <td class="description">creates a single row field that censors text input</td>
+      </tr>
+
+      <tr>
+        <td class="sn">3</td>
+        <td class="typevalues">"number"</td>
+        <td class="description">creates a single row field for number inputs</td>
+      </tr>
+
+      <tr>
+        <td class="sn">4</td>
+        <td class="typevalues">"range"</td>
+        <td class="description">creates a slider to select from a range of numbers</td>
+      </tr>
+
+
+      <tr>
+        <td class="sn">5</td>
+        <td class="typevalues">"checkbox"</td>
+        <td class="description">creates a single checkbox that can be paired with other checkboxes</td>
+      </tr>
+
+      <tr>
+        <td class="sn">6</td>
+        <td class="typevalues">"radio"</td>
+        <td class="description">creates a radio button that can be paired with other radio buttons</td>
+      </tr>
+
+      <tr>
+        <td class="sn">7</td>
+        <td class="typevalues">"submit"</td>
+        <td class="description">creates a submit button</td>
+      </tr>
+
+
+    </tbody>
+  </table>
+  <br><br>
+
+<!--Third table -->
+<h2>Attributes</h2>
+  <table>
+    <thead>
+      <tr>
+        <td >S/N</td>
+        <td >Attributes</td>
+        <td >Used for</td>
+        <td >Description</td>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="sn">1</td>
+        <td class="typevalues">action</td>
+        <td class="nameel">form</td>
+        <td class="description">The form‘s <span class="attr">action</span> attribute determines where the form’s information goes</td>
+      </tr>  
+
+      <tr>
+        <td class="sn">2</td>
+        <td class="typevalues">method</td>
+        <td class="nameel">form</td>
+        <td class="description">The form‘s <span class="attr">method</span> attribute determines how the information is sent and processed.<br>The <span class="attr">method</span> attribute is assigned a HTTP verb that is included in the HTTP request.</td>
+      </tr>
+
+      <tr>
+        <td class="sn">3</td>
+        <td class="typevalues">id</td>
+        <td class="nameel">input</td>
+        <td class="description"> To associate a <span class="tag">&ltlabel&gt;</span> and an <span class="tag">&ltinput&gt;</span>, the <span class="tag">&ltinput&gt;</span> needs an <span class="attr">id</span> attribute</td>
+      </tr>
+
+      <tr>
+        <td class="sn">4</td>
+        <td class="typevalues">name</td>
+        <td class="nameel">input</td>
+        <td class="description">  It’s important that we include a <span class="attr">name</span> attribute for the <span class="tag">&lt;input&gt;</span> — without the <span class="attr">name</span> attribute, information in the <span class="tag">&lt;input&gt;</span> won’t be sent when the <span class="tag">&lt;form&gt;</span> is submitted.<br>When a <span class="tag">&lt;form&gt;</span> is submitted, the <span class="attr">name</span> of the fields that accept input and the <span class="code">value</span> of those fields are sent as <span class="code">name=value</span> pairs.</td>
+      </tr>
+
+     <tr>
+        <td class="sn">5</td>
+        <td class="typevalues">type</td>
+        <td class="nameel">input</td>
+        <td class="description">To add fields for users to input information we use the <span class="tag">&lt;input&gt;</span> element and set the <span class="attr">type</span> attribute to a field.</td>
+      </tr>
+
+     <tr>
+        <td class="sn">6</td>
+        <td class="typevalues">value</td>
+        <td class="nameel">input</td>
+        <td class="description">When a <span class="tag">&lt;form&gt;</span> is submitted, the <span class="attr">name</span> of the fields that accept input and the <span class="code">value</span> of those fields are sent as <span class="code">name=value</span> pairs. </td>
+      </tr>
+
+      <tr>
+        <td class="sn">7</td>
+        <td class="typevalues">placeholder</td>
+        <td class="nameel">input</td>
+        <td class="description"> A placeholder shows up when the field has no value, it disappears after the user types or selects something in the field.</td>
+      </tr>
+
+
+      <tr>
+        <td class="sn">8</td>
+        <td class="typevalues">for</td>
+        <td class="nameel">label</td>
+        <td class="description">  To associate a <span class="tag">&ltlabel&gt;</span> and an <span class="tag">&ltinput&gt;</span>, the <span class="tag">&ltinput&gt;</span> needs an <span class="attr">id</span> attribute. We then assign the <span class="attr">for</span> attribute of the <span class="tag">&ltlabel&gt;</span> element with the value of the <span class="attr">id</span> attribute of <span class="tag">&ltinput&gt;</span>. </td>
+      </tr>
+
+    </tbody>
+  </table>
+  <br><br>
+
+<!--Fourth table -->
+<h2>Form Validation</h2>
+  <table>
+    <thead>
+      <tr>
+        <td >S/N</td>
+        <td > Attributes</td>
+        <td >Description</td>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="sn">1</td>
+        <td class="values">required</td>
+        <td class="description">Adding the <span class="attr">required</span> attribute to an input related element will validate that the input field has information in it.</td>
+      </tr>  
+
+      <tr>
+        <td class="sn">2</td>
+        <td class="values">min</td>
+        <td class="description">Assigning a value to the <span class="attr">min</span> attribute of a number input element will validate an acceptable minimum value.</td>
+      </tr>
+
+      <tr>
+        <td class="sn">3</td>
+        <td class="values">max</td>
+        <td class="description">Assigning a value to the <span class="attr">max</span> attribute of a number input element will validate an acceptable maximum value.</td>
+      </tr>
+
+      <tr>
+        <td class="sn">4</td>
+        <td class="values">minlength</td>
+        <td class="description">Assigning a value to the <span class="attr">minlength</span> attribute of a text input element will validate an acceptable minimum number of characters.</td>
+      </tr>
+
+
+      <tr>
+        <td class="sn">5</td>
+        <td class="values">maxlength</td>
+        <td class="description">Assigning a value to the <span class="attr">maxlength</span> attribute of a text input element will validate an acceptable maximum number of characters.</td>
+      </tr>
+
+      <tr>
+        <td class="sn">6</td>
+        <td class="values">pattern</td>
+        <td class="description">Assigning a regex to <span class="attr">pattern</span> matches the input to the provided regular expression, or regex.<br>Let’s say we wanted to check for a valid credit card number (a 14 to 16 digit number). We could use the regex: <span class="code">[0-9]{14,16}</span> which checks that the user provided only numbers and that they entered at least 14 digits and at most 16 digits.</td>
+      </tr>
+
+
+    </tbody>
+  </table>
+
+
+</body>
+
+</html>
