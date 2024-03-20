@@ -1,0 +1,24 @@
+html {
+  font-family: Arial;
+}
+thead {
+  font-weight: bold;
+}
+
+thead {
+  background-color: coral;
+  color: black;
+}
+ tbody {
+  background-color: bisque;
+}
+
+
+td {
+  border: 1px solid azure;
+}
+
+.tag, .attr, .code, .typevalues, .values {
+  font-family: monospace;
+  background-color: lightskyblue;
+}
